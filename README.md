@@ -15,4 +15,8 @@ string captchaCode = Program.captchaCode(5);
 var captcha = Program.generateCaptchaImage(400, 200, HatchStyle.Percent90, captchaCode, new FontFamily("Hometown"), FontStyle.Underline, 110, HatchStyle.Percent90, 105, 104, 248, Color.Black);
 captcha.Save("captcha.png");
 
-https://gyazo.com/8412de3111d92c584113568f7715f4d3
+https://gyazo.com/8412de3111d92c584113568f7715f4d3```
+
+###### View your Available Fonts
+
+```csharpforeach (var fonts in Program.fonts()) { Console.WriteLine(fonts); }```
