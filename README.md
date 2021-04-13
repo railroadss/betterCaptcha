@@ -1,7 +1,8 @@
 # betterCaptcha | Uses Bitmap to create a picture of a captcha, very configurable. 
 
 ###### Example Code:
-```csusing System;
+```csharp 
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
