@@ -18,4 +18,4 @@ captcha.Save("captcha.png");
 https://gyazo.com/8412de3111d92c584113568f7715f4d3```
 
 View your Available Fonts
-csharpforeach (var fonts in Program.fonts()) { Console.WriteLine(fonts); }
+foreach (var fonts in Program.fonts()) { Console.WriteLine(fonts); }
