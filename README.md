@@ -12,4 +12,4 @@ using System.Threading.Tasks;
 
 string captchaCode = Program.captchaCode(5);
 var captcha = Program.generateCaptchaImage(400, 200, HatchStyle.Percent90, captchaCode, new FontFamily("Hometown"), FontStyle.Underline, 110, HatchStyle.Percent90, 105, 104, 248, Color.Black);
-captcha.Save("captcha.png");
+captcha.Save("captcha.png");```
